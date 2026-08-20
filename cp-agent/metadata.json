@@ -1,0 +1,47 @@
+{
+  "name": "cp-agent-prototype",
+  "full_name": "CP Agent Prototype",
+  "description": "Multi-turn chatbot that demonstrates interaction with Crosswork Planning for agentic-based network planning use cases, through a pull-based handler model, where the handler owns the conversation loop.",
+  "image": "apps/cisco-crosswork-ai/cp-agent-prototype",
+  "image_tag": "v1.0.2",
+  "version": "1.0.0",
+  "source": "Cisco CWAI",
+  "tags": ["chatbot", "network-planning", "human-in-the-loop", "conversation", "adk", "cp"],
+  "allowed_roles": [],
+  "capabilities": [
+    "llm-proxy"
+  ],
+  "metadata": {
+    "description": "Demonstrates interaction with Crosswork Planning for agentic-based network planning use cases, through a pull-based handler model, where the handler owns the conversation loop."
+  },
+  "settings": {},
+  "schemas": {
+    "request": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "The user prompt that may trigger tool calls."
+        }
+      },
+      "required": ["prompt"],
+      "additionalProperties": false
+    },
+    "response": {
+      "type": "object",
+      "properties": {
+        "response": {
+          "type": "string",
+          "description": "The final LLM response after tool execution."
+        }
+      },
+      "required": ["response"],
+      "additionalProperties": false
+    },
+    "settings": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false
+    }
+  }
+}

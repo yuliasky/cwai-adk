@@ -3,7 +3,6 @@
   "full_name": "CP Agent Prototype",
   "description": "Multi-turn chatbot that demonstrates interaction with Crosswork Planning for agentic-based network planning use cases, through a pull-based handler model, where the handler owns the conversation loop.",
   "image": "apps/cisco-crosswork-ai/cp-agent-prototype",
-  "image_tag": "v1.0.2",
   "version": "1.0.0",
   "source": "Cisco CWAI",
   "tags": ["chatbot", "network-planning", "human-in-the-loop", "conversation", "adk", "cp"],

@@ -19,9 +19,9 @@ from cwai.adk.tools import ToolExecutor
 from opentelemetry import trace
 
 
-CROSSWORK_BASE_URL = "https://172.20.163.100:30603"
+CROSSWORK_BASE_URL = "https://10.10.10.10:30603"
 CROSSWORK_USERNAME = "admin"
-CROSSWORK_PASSWORD = "cRo55work!"
+CROSSWORK_PASSWORD = "your-password-here"
 REQUEST_TIMEOUT_SECONDS = 30
 
 GOODBYE_INSTRUCTION = (
